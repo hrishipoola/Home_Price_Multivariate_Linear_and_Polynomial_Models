@@ -1,1 +1,13 @@
-# Home_Price_Multivariate_Linear_and_Polynomial_Models
+Multivariate Linear & Polynomial Models to Predict Home Price
+
+Are you getting a fair value for your home? Let's deep-dive into this question by working with a real-life data set to fit models to predict home price, train them, see how they perform in the real world by applying them to test sets, plot and evaluate them, and take a look at the problem of overfitting. We'll use realty data that includes home sale prices from May 2014 to May 2015 alongside important variables like living square footage, lot square footage, number of bedrooms and bathrooms, grade, condition, waterfront status, and more for King County, WA in the Seattle-Tacoma-Bellevue metro area.
+
+Part 1: Wrangling and exploring the data, including .drop, .replace (missing values with means), custom histograms and box plots
+Part 2: Linear regression models, including regression and residual plots, fitting models using LinearRegression(), making predictions, and plotting fitted vs actual values
+Part 3: Polynomial regression on 1 variable, including fitting models using polyfit and poly1d numpy functions, making predictions, defining a plot function, and plotting fitted vs actual values
+Part 4: Multivariate polynomial regression, including fitting models using PolynomialFeatures and .fit_transform from scikit learn, creating a data pipeline using Pipeline() from scikit learn to scale, transform, and fit a model simultaneously
+Part 5: In-sample evaluation of simple linear, multiple linear, and multivariate polynomial models comparing R-squared and MSE
+Part 6: Training linear and polynomial models (out-of-sample evaluation) to see how models could perform in the real world, including splitting data into training and test sets using train_test_split, fitting and scoring models, prediting values, and plotting fitted vs actual values for training and test sets
+Part 7: Looking at the problem of overfitting by fitting a 9th order polynomial, creating, training, and scoring the model, defining a plot function, plotting predicted function on test data vs actual test and training data, and plotting an R-squared test to opimize polynomial degree
+
+Our end-to-end exploration, analysis, and modeling will cover a lot of ground, including important scikit learn packages and libraries. Let's dive in.
